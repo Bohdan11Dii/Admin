@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="film.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'> 
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+          <i class="fas fa-lg fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+          <div class="sidebar-content">
+            <div class="sidebar-brand">
+              <div id="close-sidebar">
+                <i class="fas fa-lg fa-times"></i>
+              </div>
+            </div>
+            <div class="sidebar-header">
+              <img src="./logo.webp" alt="">
+            </div>
+            <!-- sidebar-header  -->
+            <div class="sidebar-menu">
+              <ul>
+                    <li class="sidebar-dropdown">
+                      <a class="navigation" href="./index.html">
+                        <i class="fa fa-tachometer-alt"></i>
+                        <span>Статистика</span>
+                      </a>
+                    
+                    </li>
+                <li class="sidebar-dropdown">
+                  <a class="navigation" href="banner.html">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>Баннера/Слайдери</span>
+                  </a>
+                </li>
+                <ul class="list">
+                  <div>
+                      <li class="sidebar-dropdown">
+                        <a class="navigation" href="films.html">
+                          <i class="fa fa-camera-retro fa-lg" aria-hidden="true"></i>
+                          <span>Фільми</span>
+                        </a>
+                          <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                          <li class="sub"><p><a href="./add_film.html">Сторінка фільма</a></p></li>
+                          
+                      </li>
+                    </div>
+                  </ul>
+                    <ul class="list">
+                      <div>
+                          <li class="sidebar-dropdown">
+                            <a class="navigation" href="./cinema.html">
+                              <i class="fa fa-cloud"></i>
+                              <span>Кінотеатри</span>
+                            </a>
+                            <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                            <li class="sub"><p><a href="./ciname_card.html">Карточка кінотеатра</a></p></li>
+                            <li class="sub"><p><a href="./cinema_zal.html">Карточка залу</a></p></li>
+                        
+                            </li>
+                      </div>
+                    </ul>
+
+                      <ul class="list">
+                        <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="./news.html">
+                                    <i class="fa fa-globe"></i>
+                                    <span>Новини</span>
+                                  </a>
+                            
+                                <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                                <li class="sub"><p><a href="./page_news.html">Сторінка новин</a></p></li>
+                            </li>
+                        </div>
+                      </ul>
+                        
+                      <ul class="list">
+                        <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="./promotions.html">
+                                <i class="fa fa-calendar"></i>
+                                <span>Акції</span>
+                              </a>
+                              <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                              <<li class="sub"><p><a href="./page_promotions.html">Сторінка акцій</a></p></li>
+                            </li>
+                        </div>
+                      </ul>
+                      
+                            
+                      <ul class="list">
+                        <div>
+                           <li class="sidebar-dropdown">
+                            <a class="navigation" href="./page_info.html">
+                                    <i class="fa fa-folder"></i>
+                                    <span>Сторінки</span>
+                                  </a>
+                                  <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                                  <li class="sub"><p><a href="./main_page.html">Головна сторінка</a></p></li>
+                                  <li class="sub"><p><a href="./about_cinema.html">Про кінотеатр</a></p></li>
+                                  <li class="sub"><p><a href="./caffe_bar.html">Кафе-Бар</a></p></li>
+                                  <li class="sub"><p><a href="./vip.html">Vip-зал</a></p></li>
+                                  <li class="sub"><p><a href="./advertising.html">Реклама</a></p></li>
+                                  <li class="sub"><p><a href="./childrean_room.html">Дитяча кімната</a></p></li>
+                                  <li class="sub"><p><a href="./contact.html">Контакти</a></p></li>
+                            </li>
+                          </div>
+                        </ul>
+                        <ul class="list">
+                          <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="users.html">
+                                <i class="fa fa-user-circle"></i>
+                                <span>Користувачі</span>
+                              </a>
+                              <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                              <li class="sub"><a href="./create_user.html">Реадагування користувача</a></li>
+                            </li>
+                          </div>
+                        </ul>
+                        <ul class="list">
+                          <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="./newsletter.html">
+                                <i class="fa fa-sitemap"></i>
+                                <span>Розсилання</span>
+                              </a>
+                              <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                              <li class="sub"><p><a href="./choice_user.html">Вибір користувачів</a></p></li>
+                            </li>
+                          </div>
+                        </ul>
+              </ul>
+            </div>
+            <!-- sidebar-menu  -->
+          </div>
+          <!-- sidebar-content  -->
+          <div class="sidebar-footer">
+            <a href="#">
+              <i class="fab fa-lg fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-youtube"></i>
+            </a>
+          </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+          <div id="overlay" class="overlay"></div>
+          <div class="container-fluid">
+            <div class="block_admin_block">
+                <div class="block_admin">
+                    <img src="./Vector.svg" alt="">
+                    <h1>
+                        Адміністратор
+                    </h1>
+                    <img src="./open.svg" alt="">
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row">
+              <div class="form-group col-md-12">
+                
+              </div>
+              <div class="form-group col-md-12">
+                
+              </div>
+            </div>
+           
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
+               
+              </div>
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
+                
+              </div>
+            </div>
+          </div>
+
+            <h1 class="title_cinemas">
+                Список кінотеатрів
+            </h1>
+          <div class="add_film_images_cinema">
+            
+            
+            <div class="block_container__cinema">
+                    <div class="block_img_url_input_cinema">
+                        <button type="submit" class="close__button_cinema"><span>&times;</span></button>
+                      <div class="button_and_svg_cinema">
+                        
+                        <svg width="155" height="98" x="0.5" y="0.5" class="" style="opacity: 1;"><defs></defs><path d="M0 0 L155 0 C155 0 155 0 155 0 L155 98 C155 98 155 98 155 98 L0 98 C0 98 0 98 0 98 L0 0 C0 0 0 0 0 0 Z" stroke-width="1" stroke="rgb(0,0,0)" stroke-dasharray="none" fill="rgb(230,230,230)"></path><path d="M107.81484193594187 38.15651604867239C107.81484193594187 43.57825802433619 103.25851535377166 48.09637633738937 97.79092345516737 48.09637633738937 92.32333155656309 48.09637633738937 88.2226376326099 43.12644619303087 88.2226376326099 38.15651604867239 88.2226376326099 32.73477407300858 92.3233315565631 28.216655759955405 97.79092345516737 28.216655759955405 103.25851535377163 28.216655759955405 107.81484193594187 32.73477407300858 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239M85.03320902509074 49C82.75504573400562 45.38550534955746 79.10998446826945 45.38550534955746 76.83182117718434 49 76.83182117718434 49 76.37618851896731 49.45181183130532 76.37618851896731 49.45181183130532 74.55365788609922 46.74094084347341 72.73112725323114 43.57825802433619 71.36422927858007 40.86738703650429 68.17480067106091 35.445645060840484 63.16284143067366 35.445645060840484 59.973412823154504 40.86738703650429 56.78398421563534 46.2891290121681 51.7720249752481 54.87355380696913 48.58259636772894 60.295295782632934 45.393167760209785 65.71703775829674 48.12696370951192 69.7833442400446 54.505820924550235 69.7833442400446 54.505820924550235 69.7833442400446 89.58953560726097 69.7833442400446 89.58953560726097 69.7833442400446 94.1458621894312 69.7833442400446 95.96839282229928 67.07247325221269 93.69022953121416 63.006166770464844 91.41206624012905 58.93986028871698 87.76700497439288 53.06630648174786 85.03320902509074 49 85.03320902509074 49 85.03320902509074 49 85.03320902509074 49" fill="rgb(179,179,179)" fill-rule="evenOdd"></path></svg>
+                      </div>
+                          <p>
+                            Київ
+                          </p>
+                      
+                    </div>
+                    <div class="block_img_url_input_cinema">
+                        <button type="submit" class="close__button_cinema"><span>&times;</span></button>
+                      <div class="button_and_svg_cinema">
+                        
+                        <svg width="155" height="98" x="0.5" y="0.5" class="" style="opacity: 1;"><defs></defs><path d="M0 0 L155 0 C155 0 155 0 155 0 L155 98 C155 98 155 98 155 98 L0 98 C0 98 0 98 0 98 L0 0 C0 0 0 0 0 0 Z" stroke-width="1" stroke="rgb(0,0,0)" stroke-dasharray="none" fill="rgb(230,230,230)"></path><path d="M107.81484193594187 38.15651604867239C107.81484193594187 43.57825802433619 103.25851535377166 48.09637633738937 97.79092345516737 48.09637633738937 92.32333155656309 48.09637633738937 88.2226376326099 43.12644619303087 88.2226376326099 38.15651604867239 88.2226376326099 32.73477407300858 92.3233315565631 28.216655759955405 97.79092345516737 28.216655759955405 103.25851535377163 28.216655759955405 107.81484193594187 32.73477407300858 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239M85.03320902509074 49C82.75504573400562 45.38550534955746 79.10998446826945 45.38550534955746 76.83182117718434 49 76.83182117718434 49 76.37618851896731 49.45181183130532 76.37618851896731 49.45181183130532 74.55365788609922 46.74094084347341 72.73112725323114 43.57825802433619 71.36422927858007 40.86738703650429 68.17480067106091 35.445645060840484 63.16284143067366 35.445645060840484 59.973412823154504 40.86738703650429 56.78398421563534 46.2891290121681 51.7720249752481 54.87355380696913 48.58259636772894 60.295295782632934 45.393167760209785 65.71703775829674 48.12696370951192 69.7833442400446 54.505820924550235 69.7833442400446 54.505820924550235 69.7833442400446 89.58953560726097 69.7833442400446 89.58953560726097 69.7833442400446 94.1458621894312 69.7833442400446 95.96839282229928 67.07247325221269 93.69022953121416 63.006166770464844 91.41206624012905 58.93986028871698 87.76700497439288 53.06630648174786 85.03320902509074 49 85.03320902509074 49 85.03320902509074 49 85.03320902509074 49" fill="rgb(179,179,179)" fill-rule="evenOdd"></path></svg>
+                      </div>
+                          <p>
+                            Київ
+                          </p>
+                      
+                    </div>
+                    <div class="block_img_url_input_cinema">
+                        <button type="submit" class="close__button_cinema"><span>&times;</span></button>
+                      <div class="button_and_svg_cinema">
+                        
+                        <svg width="155" height="98" x="0.5" y="0.5" class="" style="opacity: 1;"><defs></defs><path d="M0 0 L155 0 C155 0 155 0 155 0 L155 98 C155 98 155 98 155 98 L0 98 C0 98 0 98 0 98 L0 0 C0 0 0 0 0 0 Z" stroke-width="1" stroke="rgb(0,0,0)" stroke-dasharray="none" fill="rgb(230,230,230)"></path><path d="M107.81484193594187 38.15651604867239C107.81484193594187 43.57825802433619 103.25851535377166 48.09637633738937 97.79092345516737 48.09637633738937 92.32333155656309 48.09637633738937 88.2226376326099 43.12644619303087 88.2226376326099 38.15651604867239 88.2226376326099 32.73477407300858 92.3233315565631 28.216655759955405 97.79092345516737 28.216655759955405 103.25851535377163 28.216655759955405 107.81484193594187 32.73477407300858 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239 107.81484193594187 38.15651604867239M85.03320902509074 49C82.75504573400562 45.38550534955746 79.10998446826945 45.38550534955746 76.83182117718434 49 76.83182117718434 49 76.37618851896731 49.45181183130532 76.37618851896731 49.45181183130532 74.55365788609922 46.74094084347341 72.73112725323114 43.57825802433619 71.36422927858007 40.86738703650429 68.17480067106091 35.445645060840484 63.16284143067366 35.445645060840484 59.973412823154504 40.86738703650429 56.78398421563534 46.2891290121681 51.7720249752481 54.87355380696913 48.58259636772894 60.295295782632934 45.393167760209785 65.71703775829674 48.12696370951192 69.7833442400446 54.505820924550235 69.7833442400446 54.505820924550235 69.7833442400446 89.58953560726097 69.7833442400446 89.58953560726097 69.7833442400446 94.1458621894312 69.7833442400446 95.96839282229928 67.07247325221269 93.69022953121416 63.006166770464844 91.41206624012905 58.93986028871698 87.76700497439288 53.06630648174786 85.03320902509074 49 85.03320902509074 49 85.03320902509074 49 85.03320902509074 49" fill="rgb(179,179,179)" fill-rule="evenOdd"></path></svg>
+                      </div>
+                          <p>
+                            Київ
+                          </p>
+                      
+                    </div>
+                    <div class="block_img_url_input_cinema">
+                      <div class="button_and_svg_cinema_button">
+                        
+                        <svg width="45" height="45" x="0.5" y="0.5" class="stencil--easier-to-select" style="opacity: 1;"><defs></defs><rect x="0" y="0" width="45" height="45" fill="transparent" class="stencil__selection-helper"></rect><path d="M45 25.71428571428571C45 25.71428571428571 25.71428571428571 25.71428571428571 25.71428571428571 25.71428571428571 25.71428571428571 25.71428571428571 25.71428571428571 45 25.71428571428571 45 25.71428571428571 45 19.28571428571429 45 19.28571428571429 45 19.28571428571429 45 19.28571428571429 25.71428571428571 19.28571428571429 25.71428571428571 19.28571428571429 25.71428571428571 0 25.71428571428571 0 25.71428571428571 0 25.71428571428571 0 19.28571428571429 0 19.28571428571429 0 19.28571428571429 19.28571428571429 19.28571428571429 19.28571428571429 19.28571428571429 19.28571428571429 19.28571428571429 19.28571428571429 0 19.28571428571429 0 19.28571428571429 0 25.71428571428571 0 25.71428571428571 0 25.71428571428571 0 25.71428571428571 19.28571428571429 25.71428571428571 19.28571428571429 25.71428571428571 19.28571428571429 45 19.28571428571429 45 19.28571428571429 45 19.28571428571429 45 25.71428571428571 45 25.71428571428571 45 25.71428571428571 45 25.71428571428571 45 25.71428571428571" stroke-width="0" stroke="none" stroke-dasharray="none" stroke-dashoffset="none" fill="rgb(114,187,83)" fill-rule="evenOdd"></path></svg>
+                      </div>
+                          <p>
+                            Добавити
+                          </p>
+                      
+                    </div>
+                    
+                    
+            </div>
+         </div>
+
+      
+        </main>
+        <!-- page-content" -->
+      </div>
+
+
+
+      <!-- ----------------------CONTENT---------------------- -->
+
+
+
+
+
+
+      <!-- page-wrapper -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+      <!-- <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> -->
+      <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js'></script> -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js'></script>
+      <script src="main.js"></script>
+
+
+
+<!-- --------------------------------DROPDOWN-MENU--------------- -->
+
+
+
+
+
+</body>
+</html>

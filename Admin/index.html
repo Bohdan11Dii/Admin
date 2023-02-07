@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'> 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+          <i class="fas fa-lg fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+          <div class="sidebar-content">
+            <div class="sidebar-brand">
+              <div id="close-sidebar">
+                <i class="fas fa-lg fa-times"></i>
+              </div>
+            </div>
+            <div class="sidebar-header">
+              <img src="./logo.webp" alt="">
+            </div>
+            <!-- sidebar-header  -->
+            <div class="sidebar-menu">
+              <ul>
+                    <li class="sidebar-dropdown">
+                      <a class="navigation" href="./index.html">
+                        <i class="fa fa-tachometer-alt"></i>
+                        <span>Статистика</span>
+                      </a>
+                    
+                    </li>
+                <li class="sidebar-dropdown">
+                  <a class="navigation" href="banner.html">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>Баннера/Слайдери</span>
+                  </a>
+                </li>
+                <ul class="list">
+                  <div>
+                      <li class="sidebar-dropdown">
+                        <a class="navigation" href="films.html">
+                          <i class="fa fa-camera-retro fa-lg" aria-hidden="true"></i>
+                          <span>Фільми</span>
+                        </a>
+                          <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                          <li class="sub"><p><a href="./add_film.html">Сторінка фільма</a></p></li>
+                          
+                      </li>
+                    </div>
+                  </ul>
+                    <ul class="list">
+                      <div>
+                          <li class="sidebar-dropdown">
+                            <a class="navigation" href="./cinema.html">
+                              <i class="fa fa-cloud"></i>
+                              <span>Кінотеатри</span>
+                            </a>
+                            <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                            <li class="sub"><p><a href="./ciname_card.html">Карточка кінотеатра</a></p></li>
+                            <li class="sub"><p><a href="./cinema_zal.html">Карточка залу</a></p></li>
+                        
+                            </li>
+                      </div>
+                    </ul>
+
+                      <ul class="list">
+                        <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="./news.html">
+                                    <i class="fa fa-globe"></i>
+                                    <span>Новини</span>
+                                  </a>
+                            
+                                <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                                <li class="sub"><p><a href="./page_news.html">Сторінка новин</a></p></li>
+                            </li>
+                        </div>
+                      </ul>
+                        
+                      <ul class="list">
+                        <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="./promotions.html">
+                                <i class="fa fa-calendar"></i>
+                                <span>Акції</span>
+                              </a>
+                              <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                              <li class="sub"><p><a href="./page_promotions.html">Сторінка акцій</a></p></li>
+                            </li>
+                        </div>
+                      </ul>
+                      
+                            
+                      <ul class="list">
+                        <div>
+                           <li class="sidebar-dropdown">
+                            <a class="navigation" href="./page_info.html">
+                                    <i class="fa fa-folder"></i>
+                                    <span>Сторінки</span>
+                                  </a>
+                                  <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                                  <li class="sub"><p><a href="./main_page.html">Головна сторінка</a></p></li>
+                                  <li class="sub"><p><a href="./about_cinema.html">Про кінотеатр</a></p></li>
+                                  <li class="sub"><p><a href="./caffe_bar.html">Кафе-Бар</a></p></li>
+                                  <li class="sub"><p><a href="./vip.html">Vip-зал</a></p></li>
+                                  <li class="sub"><p><a href="./advertising.html">Реклама</a></p></li>
+                                  <li class="sub"><p><a href="./childrean_room.html">Дитяча кімната</a></p></li>
+                                  <li class="sub"><p><a href="./contact.html">Контакти</a></p></li>
+                            </li>
+                          </div>
+                        </ul>
+                        <ul class="list">
+                          <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="users.html">
+                                <i class="fa fa-user-circle"></i>
+                                <span>Користувачі</span>
+                              </a>
+                              <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                              <li class="sub"><a href="./create_user.html">Реадагування користувача</a></li>
+                            </li>
+                          </div>
+                        </ul>
+                        <ul class="list">
+                          <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="./newsletter.html">
+                                <i class="fa fa-sitemap"></i>
+                                <span>Розсилання</span>
+                              </a>
+                              <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                              <li class="sub"><p><a href="./choice_user.html">Вибір користувачів</a></p></li>
+                            </li>
+                          </div>
+                        </ul>
+              </ul>
+            </div>
+            <!-- sidebar-menu  -->
+          </div>
+          <!-- sidebar-content  -->
+          <div class="sidebar-footer">
+            <a href="#">
+              <i class="fab fa-lg fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-youtube"></i>
+            </a>
+          </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+          <div id="overlay" class="overlay"></div>
+          <div class="container-fluid">
+            <div class="block_admin_block">
+                <div class="block_admin">
+                    <img src="./Vector.svg" alt="">
+                    <h1>
+                        Адміністратор
+                    </h1>
+                    <img src="./open.svg" alt="">
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row">
+              <div class="form-group col-md-12">
+                
+              </div>
+              <div class="form-group col-md-12">
+            
+              </div>
+            </div>
+    
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
+              
+              </div>
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="parametrs">
+            <div class="first_parametrs">
+              <p>
+                Основний параметр
+              </p>
+              <select id="theSelect">
+                <option>Кращі канали</option>
+                <option>Display</option>
+                <option>Paid Search</option>
+                <option>Organic Search</option>
+                <option>Referral</option>
+                <option>Social</option>
+                <option>Direct</option>
+                <option>(Other)</option>
+              </select>
+            </div>
+            <div style="
+                      border-top:3px solid #f0f0f0;
+                      padding-left:10px">
+            </div>
+          </div>
+
+          <!--  -->
+
+
+         
+          <div class="block_diagram_user">
+
+              <div id="myChart" class="diagram_form" style="height: 100%">
+                <h3>
+                  Кращі канали
+                </h3>
+              </div>
+              <svg class="svg_line_char" viewBox="0 0 600 400" width="600" height="400" id="svg_wrapper"></svg>
+              <div class="col-lg-3 col-6">
+
+                  <div class="small-box bg-warning">
+                    <div class="flex_user_and_icon">
+                      <div class="inner">
+                        <h3>44</h3>
+                        <p>User Registrations</p>
+                        
+                      </div>
+                      <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16">
+                          <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                          <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+                        </svg>
+                      </div>
+                    </div>
+                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                  </div>
+                </div>
+          </div>
+
+          <div class="sessions_block_index">
+
+              <div class="dropdown">
+                <input class="text-box" type="text" placeholder="Select on" readonly>
+                <div class="options">
+                  <div onclick="show('Сеанси(Всі користувачі)')">Сеанси(Всі користувачі)</div>
+                  <div onclick="show('Сеанси(Трафік планшетних і звичайних ПК)')">Сеанси(Трафік планшетних і звичайних ПК)</div>
+                  <div onclick="show('Сеанси(Трафік з мобільних)')">Сеанси(Трафік з мобільних)</div>
+                  <div onclick="show('Сеанси(Трафік смартфонів та планшетних ПК)')">Сеанси(Трафік смартфонів та планшетних ПК)</div>
+                </div>
+              </div>
+              
+              <div class="line_color">
+                <div class="container__">
+                  <div>
+                    <canvas id="myChart_2"></canvas>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <p class="p_title">
+            Основний параметр
+          </p>
+          <div class="map_and_diagram">
+            
+            <div class="flex_map">
+              <div>
+                <iframe width="600" height="450" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10989.729677347106!2d30.7336159!3d46.4797494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdc41cc58027fe9b7!2sInweb!5e0!3m2!1sru!2sua!4v1603444441494!5m2!1sru!2sua" frameborder="0" allowfullscreen="allowfullscreen" aria-hidden="false" tabindex="0"></iframe>
+
+              </div>
+              
+            </div>
+            <div class="big">
+              <div class="display_flex_sex">
+                <div class="pie pie--value" style="--percent:35;"></div>
+                <h6>
+                  Чоловіки
+                </h6>
+              </div>
+              
+              <div class="display_flex_sex">
+                <div class="pie pie--value wom" style="--percent:15;"></div>
+                <h6>
+                  Жінки
+                </h6>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          </div>
+      
+        </main>
+        <!-- page-content" -->
+      </div>
+
+
+
+      <!-- ----------------------CONTENT---------------------- -->
+
+
+
+
+
+
+      <!-- page-wrapper -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+      <!-- <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> -->
+      <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js'></script> -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js'></script>
+      <script src="main.js"></script>
+
+
+
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+      <script src="https://unpkg.com/ag-charts-community@6.1.1/dist/ag-charts-community.min.js">
+      </script>
+
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+      <script src="index_dropdown.js"></script>
+
+
+
+
+
+    
+        
+
+
+<!-- --------------------------------DROPDOWN-MENU--------------- -->
+
+
+
+
+
+</body>
+</html>

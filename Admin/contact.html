@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page_info.css">
+    <link rel="stylesheet" href="film.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'> 
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+          <i class="fas fa-lg fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+          <div class="sidebar-content">
+            <div class="sidebar-brand">
+              <div id="close-sidebar">
+                <i class="fas fa-lg fa-times"></i>
+              </div>
+            </div>
+            <div class="sidebar-header">
+              <img src="./logo.webp" alt="">
+            </div>
+            <!-- sidebar-header  -->
+            <div class="sidebar-menu">
+              <ul>
+                    <li class="sidebar-dropdown">
+                      <a class="navigation" href="./index.html">
+                        <i class="fa fa-tachometer-alt"></i>
+                        <span>Статистика</span>
+                      </a>
+                    
+                    </li>
+                <li class="sidebar-dropdown">
+                  <a class="navigation" href="banner.html">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>Баннера/Слайдери</span>
+                  </a>
+                </li>
+                <ul class="list">
+                  <div>
+                      <li class="sidebar-dropdown">
+                        <a class="navigation" href="films.html">
+                          <i class="fa fa-camera-retro fa-lg" aria-hidden="true"></i>
+                          <span>Фільми</span>
+                        </a>
+                          <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                          <li class="sub"><p><a href="./add_film.html">Сторінка фільма</a></p></li>
+                          
+                      </li>
+                    </div>
+                  </ul>
+                    <ul class="list">
+                      <div>
+                          <li class="sidebar-dropdown">
+                            <a class="navigation" href="./cinema.html">
+                              <i class="fa fa-cloud"></i>
+                              <span>Кінотеатри</span>
+                            </a>
+                            <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                            <li class="sub"><p><a href="./ciname_card.html">Карточка кінотеатра</a></p></li>
+                            <li class="sub"><p><a href="./cinema_zal.html">Карточка залу</a></p></li>
+                        
+                            </li>
+                      </div>
+                    </ul>
+
+                      <ul class="list">
+                        <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="./news.html">
+                                    <i class="fa fa-globe"></i>
+                                    <span>Новини</span>
+                                  </a>
+                            
+                                <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                                <li class="sub"><p><a href="./page_news.html">Сторінка новин</a></p></li>
+                            </li>
+                        </div>
+                      </ul>
+                        
+                      <ul class="list">
+                        <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="./promotions.html">
+                                <i class="fa fa-calendar"></i>
+                                <span>Акції</span>
+                              </a>
+                              <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                              <li class="sub"><p><a href="./page_promotions.html">Сторінка акцій</a></p></li>
+                            </li>
+                        </div>
+                      </ul>
+                      
+                            
+                      <ul class="list">
+                        <div>
+                           <li class="sidebar-dropdown">
+                            <a class="navigation" href="./page_info.html">
+                                    <i class="fa fa-folder"></i>
+                                    <span>Сторінки</span>
+                                  </a>
+                                  <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                                  <li class="sub"><p><a href="./main_page.html">Головна сторінка</a></p></li>
+                                  <li class="sub"><p><a href="./about_cinema.html">Про кінотеатр</a></p></li>
+                                  <li class="sub"><p><a href="./caffe_bar.html">Кафе-Бар</a></p></li>
+                                  <li class="sub"><p><a href="./vip.html">Vip-зал</a></p></li>
+                                  <li class="sub"><p><a href="./advertising.html">Реклама</a></p></li>
+                                  <li class="sub"><p><a href="./childrean_room.html">Дитяча кімната</a></p></li>
+                                  <li class="sub"><p><a href="./contact.html">Контакти</a></p></li>
+                            </li>
+                          </div>
+                        </ul>
+                        <ul class="list">
+                          <div>
+                            <li class="sidebar-dropdown">
+                              <a class="navigation" href="users.html">
+                                <i class="fa fa-user-circle"></i>
+                                <span>Користувачі</span>
+                              </a>
+                              <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                              <li class="sub"><a href="./create_user.html">Реадагування користувача</a></li>
+                            </li>
+                          </div>
+                        </ul>
+                        <ul class="list">
+                            <div>
+                                <li class="sidebar-dropdown">
+                                  <a class="navigation" href="./newsletter.html">
+                                    <i class="fa fa-sitemap"></i>
+                                    <span>Розсилання</span>
+                                  </a>
+                                  <i class="fa fa-arrow-right dropdown_i" style="margin-right: 30px; color: #fff; cursor: pointer;"></i>
+                                  <li class="sub"><p><a href="./choice_user.html">Вибір користувачів</a></p></li>
+                                </li>
+                              </div>
+                        </ul>
+              </ul>
+            </div>
+            <!-- sidebar-menu  -->
+          </div>
+          <!-- sidebar-content  -->
+          <div class="sidebar-footer">
+            <a href="#">
+              <i class="fab fa-lg fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-lg fa-youtube"></i>
+            </a>
+          </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+          <div id="overlay" class="overlay"></div>
+          <div class="container-fluid">
+            <div class="block_admin_block">
+                <div class="block_admin">
+                    <img src="./Vector.svg" alt="">
+                    <h1>
+                        Адміністратор
+                    </h1>
+                    <img src="./open.svg" alt="">
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row">
+              <div class="form-group col-md-12">
+                
+              </div>
+              <div class="form-group col-md-12">
+                
+              </div>
+            </div>
+           
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
+                
+              </div>
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
+                
+              </div>
+            </div>
+          </div>
+          <div class="border_contact_form">
+            <div class="contact_title_block">
+                <p>
+                    Назва кінотеатру
+                </p>
+                <input type="text" placeholder="Назва кінотеатру">
+              </div>
+              <div class="contact_adress_block">
+                <p>
+                    Адрес
+                </p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Кінотеатр 'Золотий дракон' 
+Одеса, промпект Академіка Глушко, 11ж
+Бронбвання білетів: (048) 746-32-33, (048) 746-32-20
+e-mail: goldduke@kino.odessa.ua">
+</textarea>
+              </div>
+              <div class="coordinate_for_map">
+                <p>
+                    Координати для карти
+                </p>
+                <input type="text" placeholder="Координати для карти">
+              </div>
+                <div class="logo_type_images">
+                    <p>
+                     Лого
+                    </p>
+                    <svg width="124" height="64" x="0" y="0" class="" style="opacity: 1;"><defs></defs><path d="M0 0 L124 0 C124 0 124 0 124 0 L124 64 C124 64 124 64 124 64 L0 64 C0 64 0 64 0 64 L0 0 C0 0 0 0 0 0 Z" stroke-width="2" stroke="rgb(0,0,0)" stroke-dasharray="none" fill="rgb(230,230,230)"></path><path d="M81.79744779490082 24.91854109301054C81.79744779490082 28.45927054650527 78.82188757797331 31.409878424417546 75.25121531766032 31.409878424417546 71.68054305734732 31.409878424417546 69.00253886211259 28.16420975871404 69.00253886211259 24.91854109301054 69.00253886211259 21.377811639515805 71.68054305734734 18.42720376160353 75.25121531766032 18.42720376160353 78.82188757797331 18.42720376160353 81.79744779490082 21.377811639515805 81.79744779490082 24.91854109301054 81.79744779490082 24.91854109301054 81.79744779490082 24.91854109301054 81.79744779490082 24.91854109301054M66.91964671026335 32C65.4318666017996 29.63951369767018 63.0514184282576 29.63951369767018 61.56363831979385 32 61.56363831979385 32 61.266082298101104 32.29506078779123 61.266082298101104 32.29506078779123 60.0758582113301 30.524696061043862 58.885634124559104 28.45927054650527 57.99296605948086 26.688905819757903 55.91007390763161 23.148176366263172 52.636957669011366 23.148176366263172 50.55406551716212 26.688905819757903 48.47117336531288 30.229635273252633 45.19805712669263 35.83579024128596 43.11516497484339 39.37651969478069 41.032272822994145 42.917249148275424 42.81760895315064 45.57279623839647 46.98339325684913 45.57279623839647 46.98339325684913 45.57279623839647 69.89520692719084 45.57279623839647 69.89520692719084 45.57279623839647 72.87076714411833 45.57279623839647 74.06099123088933 43.802431511649104 72.57321112242558 41.14688442152806 71.08543101396182 38.49133733140701 68.70498284041983 34.65554709012105 66.91964671026335 32 66.91964671026335 32 66.91964671026335 32 66.91964671026335 32" fill="rgb(179,179,179)" fill-rule="evenOdd"></path></svg>
+                    <button>
+                      Загрузити
+                    </button>
+                    <button>
+                      Видалити
+                    </button>
+                </div>
+          </div>
+
+
+          <!-- //// -->
+          <div class="border_contact_form">
+            <div class="contact_title_block c-t-b">
+                <div class="contact_title_block__">
+                    <p>
+                        Назва кінотеатру
+                    </p>
+                    <input type="text" placeholder="Назва кінотеатру">
+                </div>
+                
+                <div class="button__position_ btn_contact">
+                    <div class="switch-btn switch-on" data-id="#bl-2" style="margin: 10px;"></div>
+                </div>
+              </div>
+              <div class="contact_adress_block">
+                <p>
+                    Адрес
+                </p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Кінотеатр 'Золотий дракон' 
+Одеса, промпект Академіка Глушко, 11ж
+Бронбвання білетів: (048) 746-32-33, (048) 746-32-20
+e-mail: goldduke@kino.odessa.ua">
+</textarea>
+              </div>
+              <div class="coordinate_for_map">
+                <p>
+                    Координати для карти
+                </p>
+                <input type="text" placeholder="Координати для карти">
+              </div>
+                <div class="logo_type_images">
+                    <p>
+                     Лого
+                    </p>
+                    <svg width="124" height="64" x="0" y="0" class="" style="opacity: 1;"><defs></defs><path d="M0 0 L124 0 C124 0 124 0 124 0 L124 64 C124 64 124 64 124 64 L0 64 C0 64 0 64 0 64 L0 0 C0 0 0 0 0 0 Z" stroke-width="2" stroke="rgb(0,0,0)" stroke-dasharray="none" fill="rgb(230,230,230)"></path><path d="M81.79744779490082 24.91854109301054C81.79744779490082 28.45927054650527 78.82188757797331 31.409878424417546 75.25121531766032 31.409878424417546 71.68054305734732 31.409878424417546 69.00253886211259 28.16420975871404 69.00253886211259 24.91854109301054 69.00253886211259 21.377811639515805 71.68054305734734 18.42720376160353 75.25121531766032 18.42720376160353 78.82188757797331 18.42720376160353 81.79744779490082 21.377811639515805 81.79744779490082 24.91854109301054 81.79744779490082 24.91854109301054 81.79744779490082 24.91854109301054 81.79744779490082 24.91854109301054M66.91964671026335 32C65.4318666017996 29.63951369767018 63.0514184282576 29.63951369767018 61.56363831979385 32 61.56363831979385 32 61.266082298101104 32.29506078779123 61.266082298101104 32.29506078779123 60.0758582113301 30.524696061043862 58.885634124559104 28.45927054650527 57.99296605948086 26.688905819757903 55.91007390763161 23.148176366263172 52.636957669011366 23.148176366263172 50.55406551716212 26.688905819757903 48.47117336531288 30.229635273252633 45.19805712669263 35.83579024128596 43.11516497484339 39.37651969478069 41.032272822994145 42.917249148275424 42.81760895315064 45.57279623839647 46.98339325684913 45.57279623839647 46.98339325684913 45.57279623839647 69.89520692719084 45.57279623839647 69.89520692719084 45.57279623839647 72.87076714411833 45.57279623839647 74.06099123088933 43.802431511649104 72.57321112242558 41.14688442152806 71.08543101396182 38.49133733140701 68.70498284041983 34.65554709012105 66.91964671026335 32 66.91964671026335 32 66.91964671026335 32 66.91964671026335 32" fill="rgb(179,179,179)" fill-rule="evenOdd"></path></svg>
+                    <button>
+                      Загрузити
+                    </button>
+                    <button>
+                      Видалити
+                    </button>
+                </div>
+          </div>
+          <div class="contact_button_add">
+            <g class="stencil" transform="matrix(1 0 0 1 553 900)"><svg width="36" height="36" x="0.5" y="0.5" class="stencil--easier-to-select" style="opacity: 1;"><defs></defs><rect x="0" y="0" width="36" height="36" fill="transparent" class="stencil__selection-helper"></rect><path d="M36 20.571428571428573C36 20.571428571428573 20.571428571428573 20.571428571428573 20.571428571428573 20.571428571428573 20.571428571428573 20.571428571428573 20.571428571428573 36 20.571428571428573 36 20.571428571428573 36 15.42857142857143 36 15.42857142857143 36 15.42857142857143 36 15.42857142857143 20.571428571428573 15.42857142857143 20.571428571428573 15.42857142857143 20.571428571428573 0 20.571428571428573 0 20.571428571428573 0 20.571428571428573 0 15.42857142857143 0 15.42857142857143 0 15.42857142857143 15.42857142857143 15.42857142857143 15.42857142857143 15.42857142857143 15.42857142857143 15.42857142857143 15.42857142857143 0 15.42857142857143 0 15.42857142857143 0 20.571428571428573 0 20.571428571428573 0 20.571428571428573 0 20.571428571428573 15.42857142857143 20.571428571428573 15.42857142857143 20.571428571428573 15.42857142857143 36 15.42857142857143 36 15.42857142857143 36 15.42857142857143 36 20.571428571428573 36 20.571428571428573 36 20.571428571428573 36 20.571428571428573 36 20.571428571428573" stroke-width="0" stroke="none" stroke-dasharray="none" stroke-dashoffset="none" fill="rgb(114,187,83)" fill-rule="evenOdd"></path></svg></g>
+            <button>
+                Добавити кінотеатр
+            </button>
+        </div>
+        <div class="seo_film_block">
+            <p class="seo_film_block_p">
+              SEO блок:
+            </p>
+            <div class="seo_film_block__">
+              <div class="seo_film_block_items">
+                <p>
+                  URL:
+                </p>
+                <input type="text" class="text_input__">
+              </div>
+              <div class="seo_film_block_items">
+                <p>
+                  Title:
+                </p>
+                <input type="text" class="text_input__">
+              </div>
+              <div class="seo_film_block_items">
+                <p>
+                  Keywords:
+                </p>
+                <input type="text" class="text_input">
+              </div>
+              <div class="seo_film_block_items">
+                <p>
+                  Description:
+                </p>
+                <textarea type="text"></textarea>
+              </div>
+  
+            </div>
+           </div>
+           <div class="btn_save_center">
+                <button>
+                    Зберегти
+                </button>
+
+           </div>
+
+      
+        </main>
+        <!-- page-content" -->
+      </div>
+
+
+
+      <!-- ----------------------CONTENT---------------------- -->
+
+
+
+
+
+
+      <!-- page-wrapper -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+      <!-- <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script> -->
+      <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js'></script> -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js'></script>
+      <script src="main.js"></script>
+
+
+
+<!-- --------------------------------DROPDOWN-MENU--------------- -->
+
+
+
+
+
+</body>
+</html>

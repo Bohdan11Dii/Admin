@@ -1,0 +1,73 @@
+.title_promontions_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_promontions_block h1{
+    margin: 0 auto;
+}
+
+.title_promontions_block_button{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.table_promontions {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .td_promontions, .th_promontions {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .tr_promontions:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .promontions_btn_save{
+    text-align: center;
+
+  }
+  .promontions_btn_save button{
+    cursor: pointer;
+    background-color: white;
+  }
+  .promontions_btn_save button:hover{
+    background-color: green;
+    color: white;
+  }
+
+  .td_promontions g{
+    cursor: pointer;
+  }
+
+
+  /* page_promontions.html */
+
+  .title_film_block_promontions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .input_promontions_block {
+    display: flex;
+  }
+
+  .input_promontions_block input{
+    width: 100%;
+    height: 25px;
+    margin-left: 20px;
+  }
